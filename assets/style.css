@@ -1,49 +1,46 @@
-:root{
+:root { 
     --azul:#1e90ff;
 }
 /* CRIANDO UMA VARIÁVEL */
 
-body{
-height: 100vh;
-overflow: hidden; /* Quando algo ultrapassar os limites */
+body {
+    height: 100vh;
+    overflow: hidden; /* Quando algo ultrapassar os limites */
 }
 
-main{
+main {
     font-family: sans-serif;
     display: flex;
     width: 100%;
     height: 100%;
 }
 
-img{
-
+img {
     width: 100%;
     height: 100%;
-  
 }
     
 
-.background{
+.background {
     width: 60%;
-
 }
 
-.title{
+.title {
     margin-bottom: 24px;
     line-height: 120%;  /*Altera o espaço entre as linhas */
 }
 
-.inputs{
+.inputs {
     margin-bottom: 8px;
 }
 
 
-.inputs label{
+.inputs label {
     display: block; /* toma todo espaço forçando o próximo elemento a ficar abaixo dele   */
     margin-bottom: 4px;
 }
 
-.inputs input{
+.inputs input {
     padding: 4px;
     width: calc(100% - 10px);
     border-radius: 4px;
@@ -52,36 +49,30 @@ img{
 
 
 
-.formulario{
-    
+.formulario {
     width: 40%;
-    
-
 }
 
-form{
-    
-    
+form {
     width: 240px;
     margin: auto;
     margin-top: 80px;
 }
-p{
+p {
     font-size: 12px;
 }
-.textPetcard{
-
-font-weight: bold;
-color:var(--azul);
-
+.textPetcard {
+    font-weight: bold;
+    color:var(--azul);
 }
-.btn{
-margin-bottom: 8px;    
-width: 100%;
-border: none;
-padding: 4px;
-border-radius: 4px;
-background-color: var(--azul);
-color: white;
-font-weight: bold;
+
+.btn {
+    margin-bottom: 8px;    
+    width: 100%;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: var(--azul);
+    color: white;
+    font-weight: bold;
 }
